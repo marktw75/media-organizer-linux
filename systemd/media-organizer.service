@@ -1,0 +1,8 @@
+[Unit]
+Description=Media Organizer Service
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /path/to/scripts/filter_media.sh /path/to/config/media-organizer.conf
+

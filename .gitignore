@@ -1,0 +1,24 @@
+*~
+*.swp
+*.swo
+*.bak
+
+# log / output / tmp
+*.log
+*.tmp
+*.pid
+*.out
+*.err
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+backup/
+*.old
+
+config/*.conf
+!config/example.conf
+
