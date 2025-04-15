@@ -19,6 +19,3 @@ Thumbs.db
 backup/
 *.old
 
-config/*.conf
-!config/example.conf
-
